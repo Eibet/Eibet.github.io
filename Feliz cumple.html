@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz cumpleaños Oliver</title>
+    
+    <link href="icono.ico" rel="icon"/>
+    
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: #111;
+	    background-attachment: fixed;
+	    background-size: cover;
+        color: #f9f9f9; 
+    }
+
+    A {text-decoration: none;}
+
+    /* Estilos css */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes visible {
+        from { opacity: 0 }
+        to { opacity: 1 }
+    }
+
+    /* Efecto de cursor */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #fff }
+    }
+
+    /* Efecto de foto */
+
+    @keyframes entradaSuave {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Definiendo imagenes */
+    #img1 { 
+        width: 300px; 
+        height: 380px; 
+        background: url(https://i.imgur.com/B44SDpB.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+    }
+
+    #img2 { 
+        width: 100px; 
+        height: 150px; 
+        background: url(https://i.imgur.com/HEAwWvT.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+
+        /* Abajo */
+        margin-top: 5px;
+        margin-right: 207px;
+    }
+    
+    /* Duplicados modificados levemente */
+    #img3 { 
+        width: 100px; 
+        height: 150px; 
+        background: url(https://i.imgur.com/HEAwWvT.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+
+        /* Abajo */
+        margin-top: 5px;
+        margin-right: 260px;
+    }
+
+    #img4 { 
+        width: 100px; 
+        height: 150px; 
+        background: url(https://i.imgur.com/HEAwWvT.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+
+        /* Abajo */
+        margin-top: 5px;
+        margin-right: 254px;
+    }
+
+    #img5 { 
+        width: 100px; 
+        height: 150px; 
+        background: url(https://i.imgur.com/HEAwWvT.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+
+        /* Abajo */
+        margin-top: 5px;
+        margin-right: 202px;
+    }
+
+    /* Definiendo imagenes rpg muñecos */
+    #imgrpg1 { 
+        width: 400px; 
+        height: 380px; 
+        background: url(https://i.imgur.com/2x2uItP.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+    }
+
+    /* cumpleaños */
+    #imgrpg2 { 
+        width: 330px; 
+        height: 400px; 
+        background: url(https://i.imgur.com/PVTooYJ.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+    }
+
+    /* Buscando en cofre */
+    #imgrpg3 { 
+        width: 490px; 
+        height: 400px; 
+        background: url(https://i.imgur.com/5ucJZRJ.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+    }
+
+    /* chocolatin */
+    #imgrpg4 { 
+        width: 330px; 
+        height: 400px; 
+        background: url(https://i.imgur.com/MAjHFBm.png); 
+        background-size: cover;
+
+        /* Centrar */
+        display: block; 
+        margin: 0 auto;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+    }
+
+    /* Cofres imagenes */
+    .box1 {
+        width: 160px;
+        height: 160px;
+        background: url(https://i.imgur.com/ViqP2fB.png);
+        background-size: cover;
+        margin-top: 100px;
+        display: inline-block;
+        vertical-align: bottom;
+        cursor: pointer;
+    }
+    .box1:hover {
+        background: url(https://i.imgur.com/FIrcwmM.png);
+        background-size: cover;
+    }
+
+    /* SEGUNDO */
+    .box2 {
+        width: 160px;
+        height: 160px;
+        background: url(https://i.imgur.com/ViqP2fB.png);
+        background-size: cover;
+        margin-top: 0px;
+        display: inline-block;
+        vertical-align: bottom;
+        cursor: pointer;
+    }
+    .box2:hover {
+        background: url(https://i.imgur.com/FIrcwmM.png);
+        background-size: cover;
+    }
+
+    /* TERCERO */
+    .box3 {
+        width: 160px;
+        height: 160px;
+        background: url(https://i.imgur.com/ViqP2fB.png);
+        background-size: cover;
+        margin-top: 0px;
+        display: inline-block;
+        vertical-align: bottom;
+        cursor: pointer;
+    }
+    .box3:hover {
+        background: url(https://i.imgur.com/FIrcwmM.png);
+        background-size: cover;
+    }
+
+    /* Definiendo estilos de textos */
+    #f1 {
+        position: absolute; 
+        top: 0px; 
+        left: 0px; 
+        right: 0px; 
+        bottom: 0px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    /* Fondo negro */
+    #f2, #f3, #f4, #f5, #f6, #f7, #f75 {
+        position: absolute;
+        top: 0px; 
+        left: 0px; 
+        right: 0px; 
+        bottom: 0px;
+        display: none; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    #f11, #f13, #f14, #f15, #f16, #f17, #f18 {
+        position: absolute;
+        top: 0px; 
+        left: 0px; 
+        right: 0px; 
+        bottom: 0px;
+        display: none; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    #f19, #f20, #f21, #f22 {
+        position: absolute;
+        top: 0px; 
+        left: 0px; 
+        right: 0px; 
+        bottom: 0px;
+        display: none; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    /* Fondo cofre 1 texto */
+    #f12 { 
+        background: #111; 
+        position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px;
+        font: 26px 'VT323', monospace; 
+    
+        display: none;            
+        flex-direction: column;   
+        justify-content: center;  
+        align-items: center;       
+        text-align: center;    
+        padding: 50px;          
+        line-height: 1.5;         
+    }
+    
+    /* Fondo maguito */
+    #f8, #f9, #f10 { 
+        width: 100vw; 
+        height: 100vh; 
+        background: url(https://i.imgur.com/kx3psEN.png); 
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        /* Centrar */
+        display: none; 
+        margin: 0 auto;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* Calidad */
+        image-rendering: pixelated; 
+
+        /* Css */
+        animation: entradaSuave 2.0s ease-out forwards;
+        opacity: 0;
+    }
+
+    /* Definiendo respuestas */
+    .si, .no, .ya, .jaja, .c1, .reg, .c2,.c3, .que {
+        font: 30px 'VT323', monospace; 
+        margin: 10px; 
+        opacity: 0;
+        animation-name: visible;
+        animation-duration: 1s; 
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+        cursor: pointer; 
+        color: #f9f9f9;
+    }
+    .puntos1, .ya2, .c4, .c5, .music, .seguir, .atras, .c6 {
+        font: 30px 'VT323', monospace; 
+        margin: 10px; 
+        opacity: 0;
+        animation-name: visible;
+        animation-duration: 1s; 
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+        cursor: pointer; 
+        color: #f9f9f9;
+    }
+
+    .cofre2r1, .cofre2r2, .ulti1 {
+        font: 30px 'VT323', monospace; 
+        margin: 10px; 
+        opacity: 0;
+        animation-name: visible;
+        animation-duration: 1s; 
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+        cursor: pointer; 
+        color: #f9f9f9;
+    }
+
+    .cofre3r1, .cofre3r2, .cofre3r3, .cofre3r4, .cofre3r5, .cofre3r6, .cofre3r7 {
+        font: 30px 'VT323', monospace; 
+        margin: 10px; 
+        opacity: 0;
+        animation-name: visible;
+        animation-duration: 1s; 
+        animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+        cursor: pointer; 
+        color: #f9f9f9;
+    }
+
+    /* Definiendo inicio */
+    .inicio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #111; 
+        flex-direction: column;
+    }
+
+    .iniciodecofres {
+        display: flex;
+        justify-content: center;
+        background: #111; 
+        flex-direction: row;
+        gap: 20px;
+        align-items: flex-end;
+    }
+
+    
+    /* Decisiones */
+    .decidir {
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+
+    .decidircofres {
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+
+    /* Definiendo fuentes de letras */
+    h1 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        margin: 0 auto; 
+        letter-spacing: .03em; 
+        font: 35px 'VT323', monospace;
+        width: 0;
+        display: block; 
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+    }
+    
+    h2 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        margin: 0 auto; 
+        letter-spacing: .03em; 
+        font: 35px 'VT323', monospace;
+        width: 0;
+
+        display: block; 
+        text-align: center;
+
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+        animation-delay: 2.5s, 2.5s, 2.5s;
+    }
+
+    h3 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        margin: 0 auto; 
+        letter-spacing: .03em; 
+        font: 35px 'VT323', monospace;
+        width: 0;
+
+        display: block; 
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+        /* Para mandarlo abajo */
+        margin-top: 400px;
+    }
+
+    h4 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        margin: 0 auto; 
+        letter-spacing: .03em; 
+        font: 35px 'VT323', monospace;
+        width: 0;
+
+        display: block; 
+        text-align: center;
+
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+        animation-delay: 2.5s, 2.5s, 2.5s;
+    }
+
+    /*Ahora las ultimas letras de arriba de los cofres*/
+    h5 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        margin: 0 auto; 
+        letter-spacing: .03em; 
+        font: 25px 'VT323', monospace;
+
+        display: block; 
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+        /* Para mandarlo abajo */
+        text-align: center; 
+        margin-top: 185px;
+    }
+    
+    h6 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        margin: 0 auto; 
+        letter-spacing: .03em; 
+        font: 25px 'VT323', monospace;
+        width: 0;
+
+        display: block; 
+        text-align: center;
+
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+        animation-delay: 2.5s, 2.5s, 2.5s;
+    }
+
+    h7 {
+        overflow: hidden; 
+        border-right: .15em solid #fff; 
+        color: #fff;
+        white-space: nowrap;  
+        letter-spacing: .03em; 
+        font: 35px 'VT323', monospace;
+
+        display: block; 
+        animation: 
+        typing 2.5s steps(40, end) forwards, 
+        blink-caret .75s step-end infinite;
+
+        margin: 0px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <!-- Primer inicio -->
+    <div id="f1">
+        <div id="inicio" >
+            <h1 >¿Sabes que día es hoy?</h1>
+
+            <div class="decidir">
+                <div class="si">> Si!</div>
+                <div class="no">> No!</div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Primer inicio respuesta afirmativa -->
+    <div id="f2">
+        <div id="inicio" >
+            <h1>¡Excelente, entonces podemos empezar!</h1>
+            <div class="decidir">
+                <div class="ya">> ¿?</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primer inicio respuesta negativa -->
+    <div id="f3">
+        <div id="inicio">
+            <h1>Boeeee no seas asi bobo :c</h1>
+            <div class="decidir">
+                <div class="jaja">> Jajaja dale.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Continuando el parrafo -->
+    <div id="f4">
+        <div id="inicio">
+            <h1>¡HOY ES UN DIA MUY ESPECIAL!</h1>
+            <div class="decidir">
+                <div class="c1">> Continuar</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PARRAFO EN COMÚN -->
+    <div id="f5">
+        <div id="inicio">
+            <h1>Por eso te tengo un regalo c:</h1>
+            <div class="decidir">
+                <div class="reg">> ¿Un regalo?</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f6">
+        <div id="inicio">
+            <h1>¡Si! un regalo para ti</h1>
+            <h2>Ahora continuemos..</h2>
+            <div class="decidir">
+                <div class="c2">> Continuar</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Muñeco RPG -->
+    <div id="f7">
+        <div id="inicio">
+            <div id="img1"> </div>
+            <h1>¡Este eres tú! chiquito y rápido..</h1>
+            <h2>Como tu Aulus patitas cortas</h2>
+            <div class="decidir">
+                <div class="c3">> Continuar</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f75">
+        <div id="inicio">
+            <h1>JAJAJAJA bueno ahora si</h1>
+            <h2>AH... ¡ESPERA!</h2>
+            <div class="decidir">
+                <div class="puntos1">> ...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fondo de mago -->
+    <div id="f8">
+        <div id="inicio">
+            <h3>¡Te acabas de encontrar con un...</h3>
+            <h4>VIEJO VERDE!</h4>
+            <div class="decidir">
+                <div class="que">> Que?</div>
+            </div>
+            <div id="img2"> </div>
+        </div>
+    </div>
+
+    <div id="f9">
+        <div id="inicio">
+            <h3>Tiene algunas cosas que quiero mostrarte</h3>
+            <h4>¿Quieres verlas?</h4>
+            <div class="decidir">
+                <div class="ya2">> Está bien</div>
+            </div>
+            <div id="img3"> </div>
+        </div>
+    </div>
+
+    <!-- Fondo con cofres -->
+
+     <div id="f10">
+        <div>
+            <h5>UHHH!! SON UNOS COFRES, ABRELOS!!</h5>
+            <h6>Recuerda dejar el cofre del medio para último, okey?</h6>
+        </div>
+        <div id="iniciodecofres">
+            <div class="box1"> </div> <div class="box2"> </div> <div class="box3"> </div>
+            <div id="inicio">
+                <div id="img5"> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cofre 1 -->
+    <div id="f11">
+        <div id="inicio" >
+            <h1>Antes reproduce esta canción</h1>
+
+            <div class="decidir">
+                <div class="music">> Reproducir</div>
+                <div class="seguir">> Seguir leyendo</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cofre 1 texto -->
+     <div id="f12">
+        <br><br> 
+        Bueno, no soy buena con las palabras ya lo sabes, pero esta vez quiero expresarme como es debido. Espero que hoy sea un lindo día para ti, que te canten "Feliz cumpleaños" y soples una velita JAJAJAJNDH. La otra vez me dijiste que no te gustaba tanto tu cumpleaños asi que pense en "darte" algo lindo, pero no tenia para comprarte una monster, asi que espero al menos compensar con esto un poco.
+        <br><br> 
+        Se que estos dias has estado de bajón y el haber discutido conmigo no te ayudó. Lo siento mucho por eso, también sé que te preocupas mucho por los demás a tal punto de estresarte tu solito. Así que por favor Oliver.. Al menos por hoy no pienses tanto en eso, solo sé tú mismo y apoyate en tus amigos que siempre están ahí para apoyarte.
+        <br><br>
+        Te quiero muchisimo y espero que al menos leer y ver esto (Me queria morir en cada proceso de programarlo) te guste y al menos te haya sacado una risita JAJAHDJ.
+        <br><br>
+       <div class="c6">> Continuar</div>
+       <br><br>
+    </div>
+
+    <div id="f13">
+        <div id="inicio">
+            <div id="imgrpg1"> </div>
+            <h1>Mientras tanto Antuaneth..</h1>
+            <div class="decidir">
+                <div class="atras">> Volver a los cofres</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cofre 2 texto -->
+     <div id="f14">
+        <div id="inicio" >
+            <h1>¿Tan rápido llegamos al final?</h1>
+            <h2>NO! NO! NO! aún queda algo...</h2>
+            <div class="decidir">
+                <div class="cofre2r1">> Continuar</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f15">
+        <div id="inicio" >
+            <h1>Y es...</h1>
+            <div class="decidir">
+                <div class="cofre2r2">> ¿?</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f16">
+        <div id="inicio">
+            <div id="imgrpg2"> </div>
+            <h7>¡FELIZ CUMPLEAÑOS OLIVER!</h7>
+            <h2>Espero que la pases super lindo c:</h2>
+            <div class="decidir">
+                <div class="ulti1">> Volver al inicio</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cofre 3 texto -->
+    <div id="f17">
+        <div id="inicio" >
+            <h1>¿Dime, no te has olvidado de algo estos dias?</h1>
+            <h2>Piensalo un poco..</h2>
+            <div class="decidir">
+                <div class="cofre3r1">> No lo se</div>
+                <div class="cofre3r2">> Si, lo recuerdo</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f18">
+        <div id="inicio" >
+            <h7>¿ESTAS SEGURO OLIVER?</h7>
+            <h2>¿MUY SEGURO?</h2>
+            <div class="decidir">
+                <div class="cofre3r3">> Jajaja no lo se</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f19">
+        <div id="inicio" >
+            <h7>Piensalo un poco más..</h7>
+            <div class="decidir">
+                <div class="cofre3r4">> ...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f20">
+        <div id="inicio">
+            <div id="imgrpg3"> </div>
+            <h7>Daleee rebuscaaa Oliveerr</h7>
+            <div class="decidir">
+                <div class="cofre3r5">> Continuar</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f21">
+        <div id="inicio" >
+            <h7>¡EXACTO ES ESO MISMO!</h7>
+            <div class="decidir">
+                <div class="cofre3r6">> Continuar</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="f22">
+        <div id="inicio">
+            <div id="imgrpg4"> </div>
+            <h7>Faltaba chocolatin acá</h7>
+            <h2>Miraa que feliz está!</h2>
+            <div class="decidir">
+                <div class="cofre3r7">> Regresar a los cofres</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    /* Titulos primarios */
+    const titulo = document.querySelector('h1');
+    const titulo2 = document.querySelector('h2');
+    const titulo3 = document.querySelector('h3');
+    const titulo4 = document.querySelector('h4');
+    const opciones = document.querySelector('.decidir');
+    const cofres = document.querySelector('.decidircofres');
+    
+    /* respuesta primeras */
+    const botonSi = document.querySelector('.si');
+    const botonNo = document.querySelector('.no');
+
+    /* respuesta de cofre 1 */
+    const botonc1m = document.querySelector('.music');
+    const botonc1s = document.querySelector('.seguir');
+    const continuar6 = document.querySelector('.c6');
+    const botonc1atras = document.querySelector('.atras');
+
+    /* respuesta de cofre 2 */
+    const cof2r1 = document.querySelector('.cofre2r1');
+    const cof2r2 = document.querySelector('.cofre2r2');
+    const ultimo1 = document.querySelector('.ulti1');
+
+    /* respuesta de cofre 3 */
+    const cof3r1 = document.querySelector('.cofre3r1');
+    const cof3r2 = document.querySelector('.cofre3r2');
+    const cof3r3 = document.querySelector('.cofre3r3');
+    const cof3r4 = document.querySelector('.cofre3r4');
+    const cof3r5 = document.querySelector('.cofre3r5');
+    const cof3r6 = document.querySelector('.cofre3r6');
+    const cof3r7 = document.querySelector('.cofre3r7');
+
+    /* Cada parrafo */
+    const fase1 = document.getElementById('f1');
+    const fase2 = document.getElementById('f2');
+    const fase3 = document.getElementById('f3');
+    const fase4 = document.getElementById('f4');
+    const fase5 = document.getElementById('f5');
+    const fase6 = document.getElementById('f6');
+    const fase7 = document.getElementById('f7');
+    const fase75 = document.getElementById('f75');
+    const fase8 = document.getElementById('f8');
+    const fase9 = document.getElementById('f9');
+    const fase10 = document.getElementById('f10');
+    const fase11 = document.getElementById('f11');
+    const fase12 = document.getElementById('f12');
+    const fase13 = document.getElementById('f13');
+    const fase14 = document.getElementById('f14');
+    const fase15 = document.getElementById('f15');
+    const fase16 = document.getElementById('f16');
+    const fase17 = document.getElementById('f17');
+    const fase18 = document.getElementById('f18');
+    const fase19 = document.getElementById('f19');
+    const fase20 = document.getElementById('f20');
+    const fase21 = document.getElementById('f21');
+    const fase22 = document.getElementById('f22');
+
+    /* Cada cofre */
+    const cofre1 = document.querySelector('.box1');
+    const cofre2 = document.querySelector('.box2');
+    const cofre3 = document.querySelector('.box3');
+    
+    /* Respuestas secundarias */
+    const interrogacion = document.querySelector('.ya');
+    const vale = document.querySelector('.jaja');
+    const continuar1 = document.querySelector('.c1');
+    const regalo = document.querySelector('.reg');
+    const continuar2 = document.querySelector('.c2');
+    const continuar3 = document.querySelector('.c3');
+    const puntos1 = document.querySelector('.puntos1');
+    const interrogacion2 = document.querySelector('.que');
+    const afirmativa1 = document.querySelector('.ya2');
+    const continuar4 = document.querySelector('.c4');
+
+    /* Fotos (Imnecesario pero por las dudas viste) */
+    const imagen1 = document.getElementById('img1');
+    const imagen2 = document.getElementById('img2');
+    const imagen3 = document.getElementById('img3');
+
+    /* Acciones */
+    botonSi.onclick = function() {
+        fase1.style.display = 'none'; 
+        fase2.style.display = 'flex';
+        }
+
+    botonNo.onclick = function() {
+        fase1.style.display = 'none'; 
+        fase2.style.display = 'none';
+        fase3.style.display = 'flex';
+    }
+
+    interrogacion.onclick = function() {
+        fase1.style.display = 'none'; 
+        fase2.style.display = 'none';
+        fase3.style.display = 'none';
+        fase4.style.display = 'flex';
+    }
+
+    vale.onclick = function() {
+        fase1.style.display = 'none'; 
+        fase2.style.display = 'none';
+        fase3.style.display = 'none';
+        fase4.style.display = 'flex';
+    }
+
+    /* PARRAFO EN COMÚN */
+    continuar1.onclick = function() {
+        fase4.style.display = 'none';
+        fase5.style.display = 'flex';
+    }
+
+    regalo.onclick = function() {
+        fase5.style.display = 'none';
+        fase6.style.display = 'flex';
+    }
+
+    /* Muñeco RPG */
+    continuar2.onclick = function() {
+        fase6.style.display = 'none';
+        fase7.style.display = 'flex';
+    }
+
+    continuar3.onclick = function() {
+        fase7.style.display = 'none';
+        fase75.style.display = 'flex';
+    }
+
+    /* Fondo del mago */
+    puntos1.onclick = function() {
+        fase75.style.display = 'none';
+        fase8.style.display = 'flex';
+    }
+
+    interrogacion2.onclick = function() {
+        fase8.style.display = 'none';
+        fase9.style.display = 'flex';
+    }
+
+    afirmativa1.onclick = function() {
+        fase9.style.display = 'none';
+        fase10.style.display = 'flex';
+    }
+
+    /* cofre 1 */
+    cofre1.onclick = function() {
+        fase10.style.display = 'none';
+        fase11.style.display = 'flex';
+    }
+
+    botonc1m.onclick = function() {
+        window.location.href = "https://www.youtube.com/watch?v=zjS5mHmuXHo";
+    }
+
+    botonc1s.onclick = function() {
+        fase11.style.display = 'none';
+        fase12.style.display = 'flex';
+    }
+
+    continuar6.onclick = function() {
+        fase12.style.display = 'none';
+        fase13.style.display = 'flex';
+    }
+
+    botonc1atras.onclick = function() {
+        fase13.style.display = 'none';
+        fase10.style.display = 'flex';
+    }
+
+    /* cofre 2 */
+    cofre2.onclick = function() {
+        fase10.style.display = 'none';
+        fase14.style.display = 'flex';
+    }
+
+    cof2r1.onclick = function() {
+        fase14.style.display = 'none';
+        fase15.style.display = 'flex';
+    }
+
+    cof2r2.onclick = function() {
+        fase15.style.display = 'none';
+        fase16.style.display = 'flex';
+    }
+
+    ultimo1.onclick = function() {
+        fase16.style.display = 'none';
+        fase1.style.display = 'flex';
+    }
+
+    /* cofre 3 */
+    cofre3.onclick = function() {
+        fase10.style.display = 'none';
+        fase17.style.display = 'flex';
+    }
+
+    cof3r1.onclick = function() {
+        fase17.style.display = 'none';
+        fase19.style.display = 'flex';
+    }
+
+    cof3r2.onclick = function() {
+        fase17.style.display = 'none';
+        fase18.style.display = 'flex';
+    }
+
+    cof3r3.onclick = function() {
+        fase18.style.display = 'none';
+        fase19.style.display = 'flex';
+    }
+
+    cof3r4.onclick = function() {
+        fase19.style.display = 'none';
+        fase20.style.display = 'flex';
+    }
+
+    cof3r5.onclick = function() {
+        fase20.style.display = 'none';
+        fase21.style.display = 'flex';
+    }
+
+    cof3r6.onclick = function() {
+        fase21.style.display = 'none';
+        fase22.style.display = 'flex';
+    }
+
+    cof3r7.onclick = function() {
+        fase22.style.display = 'none';
+        fase10.style.display = 'flex';
+    }
+    
+</script>
+</html>
